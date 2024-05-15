@@ -1,4 +1,4 @@
-# Audio Player Site
+# Azure OpenAI Text to speech audio player site
 
 This project showcases a web page for playing and listing audio files using HTML, CSS, and JavaScript. The primary goal is to feature a specific audio file prominently while displaying other audio files in a grid layout.
 

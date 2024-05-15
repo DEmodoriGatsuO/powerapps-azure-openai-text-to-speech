@@ -3,16 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Audio Player</title>
+    <title>Audio Files</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Audio Player</h1>
-        <audio id="audioPlayer" controls>
-            <source src="asset/audio.mpeg" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
+        <h1>Audio Files</h1>
+        <div class="featured-audio">
+            <h2>Featured Audio alloy long speech</h2>
+            <audio controls>
+                <source src="asset/azure_open_ai_speech_alloy.mpeg" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-list">
+            <h2>Other Audios</h2>
+            <div class="audio-grid">
+                <div class="audio-item">
+                    <label for="audio1">alloy short greeting</label>
+                    <audio id="audio1" controls>
+                        <source src="asset/01_alloy_greeting.mpeg" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="audio-item">
+                    <label for="audio2">echo short greeting</label>
+                    <audio id="audio2" controls>
+                        <source src="asset/02_echo_greeting.mpeg" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="audio-item">
+                    <label for="audio3">fable short greeting</label>
+                    <audio id="audio3" controls>
+                        <source src="asset/03_fable_greeting.mpeg" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="audio-item">
+                    <label for="audio4">onyx short greeting</label>
+                    <audio id="audio4" controls>
+                        <source src="asset/04_onyx_greeting.mpeg" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="audio-item">
+                    <label for="audio5">nova short greeting</label>
+                    <audio id="audio5" controls>
+                        <source src="asset/05_nova_greeting.mpeg" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="audio-item">
+                    <label for="audio6">shimmer short greeting</label>
+                    <audio id="audio6" controls>
+                        <source src="asset/06_shimmer_greeting.mpeg" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="audio-item">
+                    <label for="audio7">nova long version</label>
+                    <audio id="audio7" controls>
+                        <source src="asset/azure_openai_speech_nova.mpeg" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

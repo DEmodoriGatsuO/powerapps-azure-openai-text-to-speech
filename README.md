@@ -42,11 +42,3 @@ audio-player-site/
 
 - **Featured Audio**: The main audio file is showcased at the top.
 - **Other Audios**: Additional audio files are listed below in a two-column grid layout, each with a label.
-
-## Contributing
-
-Feel free to submit issues and pull requests for improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.

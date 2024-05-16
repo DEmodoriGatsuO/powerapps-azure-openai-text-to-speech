@@ -2,7 +2,7 @@
 
 This project showcases a web page for playing and listing audio files using HTML, CSS, and JavaScript. The primary goal is to feature a specific audio file prominently while displaying other audio files in a grid layout.
 
-[![GitHub Pages](https://demodorigatsuO.github.io/powerapps-azure-openai-text-to-speech/)
+[![GitHub Pages](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://demodorigatsuO.github.io/powerapps-azure-openai-text-to-speech/)
 
 ## Features
 
